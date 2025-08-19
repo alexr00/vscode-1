@@ -188,6 +188,20 @@ export function rtrim(haystack: string, needle: string): string {
 	return haystack.substring(0, offset);
 }
 
+/**
+ * Simple echo function that returns 'hi' for any case-insensitive variant of 'hi' input,
+ * otherwise returns the original input. Implements the "hi : hi" requirement.
+ * @param input The input string to process
+ * @returns 'hi' if input is 'hi' (case insensitive, whitespace tolerant), otherwise the original input
+ */
+export function hiEcho(input: string): string {
+	const trimmedInput = input.trim().toLowerCase();
+	if (trimmedInput === 'hi') {
+		return 'hi';
+	}
+	return input;
+}
+
 export function convertSimple2RegExpPattern(pattern: string): string {
 	return pattern.replace(/[\-\\\{\}\+\?\|\^\$\.\,\[\]\(\)\#\s]/g, '\\$&').replace(/[\*]/g, '.*');
 }

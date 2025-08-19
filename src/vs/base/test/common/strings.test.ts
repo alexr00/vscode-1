@@ -604,3 +604,26 @@ test('htmlAttributeEncodeValue', () => {
 	assert.strictEqual(strings.htmlAttributeEncodeValue('\'Hello\''), '&apos;Hello&apos;');
 	assert.strictEqual(strings.htmlAttributeEncodeValue('<>&\'"'), '&lt;&gt;&amp;&apos;&quot;');
 });
+
+test('hiEcho', () => {
+	// Test the core "hi : hi" requirement
+	assert.strictEqual(strings.hiEcho('hi'), 'hi');
+	
+	// Test case insensitive
+	assert.strictEqual(strings.hiEcho('Hi'), 'hi');
+	assert.strictEqual(strings.hiEcho('HI'), 'hi');
+	assert.strictEqual(strings.hiEcho('hI'), 'hi');
+	
+	// Test with whitespace
+	assert.strictEqual(strings.hiEcho(' hi '), 'hi');
+	assert.strictEqual(strings.hiEcho('  hi  '), 'hi');
+	assert.strictEqual(strings.hiEcho('\thi\n'), 'hi');
+	
+	// Test other inputs (should return original)
+	assert.strictEqual(strings.hiEcho('hello'), 'hello');
+	assert.strictEqual(strings.hiEcho(''), '');
+	assert.strictEqual(strings.hiEcho('  '), '  ');
+	assert.strictEqual(strings.hiEcho('hi there'), 'hi there');
+	assert.strictEqual(strings.hiEcho('say hi'), 'say hi');
+	assert.strictEqual(strings.hiEcho('hiya'), 'hiya');
+});
