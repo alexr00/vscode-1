@@ -4,12 +4,12 @@
  *--------------------------------------------------------------------------------------------*/
 
 import assert from 'assert';
+import { CancellationToken } from '../../../../../base/common/cancellation.js';
 import { ensureNoDisposablesAreLeakedInTestSuite } from '../../../../../base/test/common/utils.js';
 import { ExtensionIdentifier } from '../../../../../platform/extensions/common/extensions.js';
 import { MockContextKeyService } from '../../../../../platform/keybinding/test/common/mockKeybindingService.js';
 import { ChatAgentLocation, ChatAgentService, IChatAgentData, IChatAgentImplementation, IChatAgentRequest } from '../../common/chatAgents.js';
 import { TestStorageService } from '../../../../test/common/workbenchTestServices.js';
-import { CancellationToken } from '../../../../../base/common/cancellation.js';
 
 suite('Hi Echo Agent', function () {
 	const store = ensureNoDisposablesAreLeakedInTestSuite();
@@ -37,7 +37,7 @@ suite('Hi Echo Agent', function () {
 		};
 
 		const hiEchoAgentImpl: IChatAgentImplementation = {
-			invoke: async (request: IChatAgentRequest, progress, history, token: CancellationToken) => {
+			invoke: async (request, progress, history, token) => {
 				// Simple echo: if input is "hi", respond with "hi"
 				if (request.message.trim().toLowerCase() === 'hi') {
 					progress({ content: 'hi' });
@@ -96,7 +96,7 @@ suite('Hi Echo Agent', function () {
 		};
 
 		const hiEchoAgentImpl: IChatAgentImplementation = {
-			invoke: async (request: IChatAgentRequest, progress, history, token: CancellationToken) => {
+			invoke: async (request, progress, history, token) => {
 				if (request.message.trim().toLowerCase() === 'hi') {
 					progress({ content: 'hi' });
 				} else {
