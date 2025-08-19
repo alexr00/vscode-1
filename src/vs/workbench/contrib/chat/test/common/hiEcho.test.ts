@@ -5,6 +5,7 @@
 
 import assert from 'assert';
 import { CancellationToken } from '../../../../../base/common/cancellation.js';
+import { hiEcho } from '../../../../../base/common/strings.js';
 import { ensureNoDisposablesAreLeakedInTestSuite } from '../../../../../base/test/common/utils.js';
 import { ExtensionIdentifier } from '../../../../../platform/extensions/common/extensions.js';
 import { MockContextKeyService } from '../../../../../platform/keybinding/test/common/mockKeybindingService.js';
@@ -38,12 +39,9 @@ suite('Hi Echo Agent', function () {
 
 		const hiEchoAgentImpl: IChatAgentImplementation = {
 			invoke: async (request, progress, history, token) => {
-				// Simple echo: if input is "hi", respond with "hi"
-				if (request.message.trim().toLowerCase() === 'hi') {
-					progress({ content: 'hi' });
-				} else {
-					progress({ content: `I only understand "hi", but you said: ${request.message}` });
-				}
+				// Use the hiEcho function from strings module
+				const response = hiEcho(request.message);
+				progress({ content: response });
 				return {};
 			},
 		};
@@ -97,11 +95,9 @@ suite('Hi Echo Agent', function () {
 
 		const hiEchoAgentImpl: IChatAgentImplementation = {
 			invoke: async (request, progress, history, token) => {
-				if (request.message.trim().toLowerCase() === 'hi') {
-					progress({ content: 'hi' });
-				} else {
-					progress({ content: `I only understand "hi", but you said: ${request.message}` });
-				}
+				// Use the hiEcho function from strings module
+				const response = hiEcho(request.message);
+				progress({ content: response });
 				return {};
 			},
 		};
