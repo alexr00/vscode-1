@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "cp",
 	description: "Copy files and directories",
@@ -77,3 +78,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

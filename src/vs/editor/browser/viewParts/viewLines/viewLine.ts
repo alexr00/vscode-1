@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -681,3 +682,4 @@ export function getColumnOfNodeOffset(characterMapping: CharacterMapping, spanNo
 
 	return characterMapping.getColumn(new DomPosition(spanIndex, offset), spanNodeTextContentLength);
 }
+

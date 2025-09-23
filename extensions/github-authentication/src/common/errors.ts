@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -12,3 +13,4 @@ export const NETWORK_ERROR = 'network error';
 // This is the error message that we throw if the login was cancelled for any reason. Extensions
 // calling `getSession` can handle this error to know that the user cancelled the login.
 export const CANCELLATION_ERROR = 'Cancelled';
+

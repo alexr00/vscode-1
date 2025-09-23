@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -248,3 +249,4 @@ function getAttributeLanguage(attributeName: string): string | null {
 	}
 	return match[1] ? 'css' : 'javascript';
 }
+

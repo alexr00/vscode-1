@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -593,3 +594,4 @@ export const codiconsLibrary = {
 	lightbulbEmpty: register('lightbulb-empty', 0xec40),
 	symbolMethodArrow: register('symbol-method-arrow', 0xec41),
 } as const;
+

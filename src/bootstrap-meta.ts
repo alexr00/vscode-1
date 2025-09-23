@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -20,3 +21,4 @@ if (pkgObj['BUILD_INSERT_PACKAGE_CONFIGURATION']) {
 
 export const product = productObj;
 export const pkg = pkgObj;
+

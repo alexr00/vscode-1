@@ -1,3 +1,4 @@
+// test-pr
 import { filepaths } from '../../helpers/filepaths';
 
 const completionSpec: Fig.Subcommand = {
@@ -501,3 +502,4 @@ const completionSpec: Fig.Subcommand = {
 };
 
 export default completionSpec;
+

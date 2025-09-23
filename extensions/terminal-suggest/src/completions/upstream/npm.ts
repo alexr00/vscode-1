@@ -1,3 +1,4 @@
+// test-pr
 function uninstallSubcommand(named: string | string[]): Fig.Subcommand {
 	return {
 		name: named,
@@ -1608,3 +1609,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

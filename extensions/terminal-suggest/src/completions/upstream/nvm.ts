@@ -1,3 +1,4 @@
+// test-pr
 // args
 const version: Fig.Arg = {
 	name: "version",
@@ -312,3 +313,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

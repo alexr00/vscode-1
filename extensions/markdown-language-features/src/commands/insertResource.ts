@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -101,3 +102,4 @@ function createInsertLinkEdit(activeEditor: vscode.TextEditor, selectedFiles: re
 	edit.set(activeEditor.document.uri, snippetEdits);
 	return edit;
 }
+

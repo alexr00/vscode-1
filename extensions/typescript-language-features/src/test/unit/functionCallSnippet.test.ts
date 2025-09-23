@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -165,3 +166,4 @@ suite('typescript function call snippets', () => {
 			'foobar(${1:a}, ${2:b}, ${3:c}, ${4:d}, ${5:e}, ${6:f}$7)$0');
 	});
 });
+

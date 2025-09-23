@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -213,3 +214,4 @@ class WebTypingsInstallerServer extends ts.server.typingsInstaller.TypingsInstal
 		return JSON.parse(data.trim());
 	}
 }
+

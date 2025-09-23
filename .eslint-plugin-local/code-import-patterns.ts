@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -285,3 +286,4 @@ function getRelativeFilename(context: eslint.Rule.RuleContext): string {
 	const filename = path.normalize(context.getFilename());
 	return filename.substring(REPO_ROOT.length).replace(/\\/g, '/');
 }
+

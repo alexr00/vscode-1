@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -274,4 +275,5 @@ function traverseNodes(root: IJSONSchema, visit: (schema: IJSONSchema) => boolea
 		next = toWalk.pop();
 	}
 }
+
 

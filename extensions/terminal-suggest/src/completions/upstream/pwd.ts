@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "pwd",
 	description: "Return working directory name",
@@ -14,3 +15,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

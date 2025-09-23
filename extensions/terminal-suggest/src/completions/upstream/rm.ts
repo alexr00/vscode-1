@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "rm",
 	description: "Remove directory entries",
@@ -41,3 +42,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

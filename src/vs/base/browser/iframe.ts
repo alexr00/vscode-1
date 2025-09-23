@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -133,3 +134,4 @@ function sha256AsBase32(bytes: ArrayBuffer): string {
 	// sha256 has 256 bits, so we need at most ceil(lg(2^256-1)/lg(32)) = 52 chars to represent it in base 32
 	return BigInt(`0x${hexArray}`).toString(32).padStart(52, '0');
 }
+

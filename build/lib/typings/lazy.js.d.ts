@@ -1,3 +1,4 @@
+// test-pr
 // Type definitions for Lazy.js 0.3.2
 // Project: https://github.com/dtao/lazy.js/
 // Definitions by: Bart van der Schoor <https://github.com/Bartvds>
@@ -273,4 +274,5 @@ declare module Lazy {
 declare module 'lazy.js' {
 	export = Lazy;
 }
+
 

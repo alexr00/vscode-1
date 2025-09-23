@@ -1,7 +1,9 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
+
 
 import { CompletionItemProvider, CompletionItem, CompletionItemKind, CancellationToken, TextDocument, Position, Range, TextEdit, workspace, CompletionContext } from 'vscode';
 import * as phpGlobals from './phpGlobals';
@@ -111,3 +113,4 @@ export default class PHPCompletionItemProvider implements CompletionItemProvider
 		return Promise.resolve(result);
 	}
 }
+

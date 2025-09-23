@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -187,3 +188,4 @@ export function mapPager<T, R>(pager: IPager<T>, fn: (t: T) => R): IPager<R> {
 		getPage: (pageIndex, token) => pager.getPage(pageIndex, token).then(r => r.map(fn))
 	};
 }
+

@@ -1,3 +1,4 @@
+// test-pr
 // Copied from https://github.com/microsoft/TypeScript for running tests against a large file
 
 import {
@@ -146618,3 +146619,4 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
                 case SyntaxKind.BinaryExpression:
                     const node = d as ExportAssignment | BinaryExpression;
                     const expression = isExportAssignment(node) ? nod
+

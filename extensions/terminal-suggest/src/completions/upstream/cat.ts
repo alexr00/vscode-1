@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "cat",
 	description: "Concatenate and print files",
@@ -48,3 +49,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

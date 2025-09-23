@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "ps",
 	description: "Report a snapshot of the current processes",
@@ -151,3 +152,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

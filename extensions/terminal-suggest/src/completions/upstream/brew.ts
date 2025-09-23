@@ -1,3 +1,4 @@
+// test-pr
 const servicesGenerator = (action: string): Fig.Generator => ({
 	script: ["bash", "-c", "brew services list | sed -e 's/ .*//' | tail -n +2"],
 	postProcess: function (out) {
@@ -1673,3 +1674,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

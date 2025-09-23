@@ -1,3 +1,4 @@
+// test-pr
 
 declare module "gulp-bom" {
 	function f(): NodeJS.ReadWriteStream;
@@ -10,3 +11,4 @@ declare module "gulp-bom" {
 
 	export = f;
 }
+

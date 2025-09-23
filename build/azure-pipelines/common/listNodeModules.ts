@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -42,3 +43,4 @@ function findNodeModulesFiles(location: string, inNodeModules: boolean, result: 
 const result: string[] = [];
 findNodeModulesFiles('', false, result);
 fs.writeFileSync(process.argv[2], result.join('\n') + '\n');
+

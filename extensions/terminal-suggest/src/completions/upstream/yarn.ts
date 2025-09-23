@@ -1,3 +1,4 @@
+// test-pr
 import { npmScriptsGenerator, npmSearchGenerator } from "./npm";
 
 export const yarnScriptParserDirectives: Fig.Arg["parserDirectives"] = {
@@ -1672,3 +1673,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

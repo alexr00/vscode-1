@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -60,3 +61,4 @@ export class StaticLanguageServiceHost implements ts.LanguageServiceHost {
 	// this is necessary to make source references work.
 	realpath = ts.sys.realpath;
 }
+

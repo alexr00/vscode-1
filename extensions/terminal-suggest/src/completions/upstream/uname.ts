@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "uname",
 	description: "Print operating system name",
@@ -34,3 +35,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

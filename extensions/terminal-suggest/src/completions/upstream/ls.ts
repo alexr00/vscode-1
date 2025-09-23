@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "ls",
 	description: "List directory contents",
@@ -225,3 +226,4 @@ option has no effect.  This option is not defined in IEEE Std 1003.1-2001 (“PO
 };
 
 export default completionSpec;
+

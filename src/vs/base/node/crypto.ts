@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -36,3 +37,4 @@ export async function checksum(path: string, sha256hash: string | undefined): Pr
 		throw new Error('Hash mismatch');
 	}
 }
+

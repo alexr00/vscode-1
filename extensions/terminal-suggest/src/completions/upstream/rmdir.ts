@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "rmdir",
 	description: "Remove directories",
@@ -16,3 +17,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

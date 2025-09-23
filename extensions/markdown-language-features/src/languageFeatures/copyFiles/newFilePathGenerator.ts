@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -74,4 +75,5 @@ export function getDesiredNewFilePath(config: CopyFileConfiguration, document: v
 	// Default to next to current file
 	return vscode.Uri.joinPath(Utils.dirname(docUri), file.name);
 }
+
 

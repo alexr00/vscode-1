@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -32,3 +33,4 @@ export const instanceTempDir = new Lazy(() => {
 export function getTempFile(prefix: string): string {
 	return path.join(instanceTempDir.value, `${prefix}-${makeRandomHexString(20)}.tmp`);
 }
+

@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "head",
 	description: "Output the first part of files",
@@ -33,3 +34,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

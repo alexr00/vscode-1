@@ -1,3 +1,4 @@
+// test-pr
 // Linux incompatible
 
 const signals = [
@@ -151,3 +152,4 @@ const completionSpec: Fig.Spec = {
 	],
 };
 export default completionSpec;
+

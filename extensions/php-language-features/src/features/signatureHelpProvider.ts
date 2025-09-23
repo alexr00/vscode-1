@@ -1,7 +1,9 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
+
 
 import { SignatureHelpProvider, SignatureHelp, SignatureInformation, CancellationToken, TextDocument, Position, workspace } from 'vscode';
 import * as phpGlobals from './phpGlobals';
@@ -171,3 +173,4 @@ export default class PHPSignatureHelpProvider implements SignatureHelpProvider {
 	}
 
 }
+

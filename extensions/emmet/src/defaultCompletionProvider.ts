@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -215,3 +216,4 @@ export class DefaultCompletionItemProvider implements vscode.CompletionItemProvi
 function toRange(lsRange: LSRange) {
 	return new vscode.Range(lsRange.start.line, lsRange.start.character, lsRange.end.line, lsRange.end.character);
 }
+
