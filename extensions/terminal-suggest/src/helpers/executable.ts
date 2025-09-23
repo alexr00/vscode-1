@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -59,3 +60,4 @@ export const windowsDefaultExecutableExtensions: string[] = [
 	'.pl',    // Perl script (requires Perl interpreter)
 	'.sh',    // Shell script (via WSL or third-party tools)
 ];
+

@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "top",
 	description: "Display Linux tasks",
@@ -47,3 +48,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

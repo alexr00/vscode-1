@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -34,3 +35,4 @@ if (env && env['VSCODE_DEV_DEBUG']) {
 	// To debug observables you also need the extension "ms-vscode.debug-value-editor"
 	addLogger(DevToolsLogger.getInstance());
 }
+

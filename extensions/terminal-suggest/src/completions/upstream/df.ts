@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "df",
 	description: "Display free disk space",
@@ -63,3 +64,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

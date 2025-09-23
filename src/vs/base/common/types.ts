@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -346,3 +347,4 @@ export type PartialExcept<T, K extends keyof T> = Partial<Omit<T, K>> & Pick<T, 
  * Type for an `object` with its `value` property being a {@link URI}.
  */
 export type WithUriValue<T extends object> = T & { value: URI };
+

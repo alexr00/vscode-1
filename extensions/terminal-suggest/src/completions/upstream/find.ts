@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "find",
 	description: "Walk a file hierarchy",
@@ -69,3 +70,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "touch",
 	description: "Change file access and modification times",
@@ -57,3 +58,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "wget",
 	description: "A non-interactive network retriever",
@@ -602,3 +603,4 @@ const completionSpec: Fig.Spec = {
 // and/or open issues at https://savannah.gnu.org/bugs/?func=additem&group=wget.
 
 export default completionSpec;
+

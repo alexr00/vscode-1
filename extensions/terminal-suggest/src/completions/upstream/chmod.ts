@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "chmod",
 	description: "Change file modes or Access Control Lists",
@@ -86,3 +87,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

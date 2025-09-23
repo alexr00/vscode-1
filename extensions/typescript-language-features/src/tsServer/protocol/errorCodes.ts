@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -14,3 +15,4 @@ export const incorrectlyImplementsInterface = new Set([2420]);
 export const cannotFindName = new Set([2552, 2304]);
 export const extendsShouldBeImplements = new Set([2689]);
 export const asyncOnlyAllowedInAsyncFunctions = new Set([1308]);
+

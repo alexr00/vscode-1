@@ -1,3 +1,4 @@
+// test-pr
 declare namespace NodeJS {
 	type ComposeFnParam = (source: any) => void;
 	interface ReadWriteStream {
@@ -7,3 +8,4 @@ declare namespace NodeJS {
 		): T;
 	}
 }
+

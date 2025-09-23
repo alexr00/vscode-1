@@ -1,3 +1,4 @@
+// test-pr
 // Compatibility: macOS
 
 function processIcon(path: string): string {
@@ -61,3 +62,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

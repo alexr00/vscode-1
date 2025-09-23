@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -94,3 +95,4 @@ suite('ListWidget', function () {
 		assert.strictEqual(listWidget.getFocus()[0], 0, 'page up to next page');
 	});
 });
+

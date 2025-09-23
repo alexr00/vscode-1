@@ -1,3 +1,4 @@
+// test-pr
 import { filepaths } from '../../helpers/filepaths';
 
 const packages: Fig.Generator = {
@@ -353,3 +354,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

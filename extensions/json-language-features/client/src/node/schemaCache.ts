@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -145,3 +146,4 @@ export class JSONSchemaCache {
 function getCacheFileName(uri: string): string {
 	return `${createHash('sha256').update(uri).digest('hex')}.schema.json`;
 }
+

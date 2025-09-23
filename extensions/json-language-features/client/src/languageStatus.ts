@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -277,5 +278,6 @@ export function createDocumentSymbolsLimitItem(documentSelector: DocumentSelecto
 	statusItem.command = { command: openSettingsCommand, arguments: [settingId], title: configureSettingsLabel };
 	return Disposable.from(statusItem);
 }
+
 
 

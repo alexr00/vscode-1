@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -116,3 +117,4 @@ export class ScrollbarVisibilityController extends Disposable {
 		this._domNode?.setClassName(this._invisibleClassName + (withFadeAway ? ' fade' : ''));
 	}
 }
+

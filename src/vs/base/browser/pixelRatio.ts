@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -112,3 +113,4 @@ class PixelRatioMonitorFacade {
  * and any measurements need to be discarded for example when a window is moved from a monitor to another.
  */
 export const PixelRatio = new PixelRatioMonitorFacade();
+

@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "mv",
 	description: "Move & rename files and folders",
@@ -38,3 +39,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -94,4 +95,5 @@ export async function getAliasesHelper(command: string, args: string[], regex: R
 	}
 	return result;
 }
+
 

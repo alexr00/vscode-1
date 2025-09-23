@@ -1,3 +1,4 @@
+// test-pr
 const n = null;
 const u = undefined;
 const a = true || false;
@@ -34,3 +35,4 @@ const obj = {
 type Rec = Record<string, string>;
 
 new URL('./../../renderer/dist/index.html', import.meta.url);
+

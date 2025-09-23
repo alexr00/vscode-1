@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "tail",
 	description: "Display the last part of a file",
@@ -18,3 +19,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

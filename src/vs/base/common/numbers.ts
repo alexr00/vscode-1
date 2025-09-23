@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -163,3 +164,4 @@ export function randomChance(p: number): boolean {
 	assert(p >= 0 && p <= 1, 'p must be between 0 and 1');
 	return Math.random() < p;
 }
+

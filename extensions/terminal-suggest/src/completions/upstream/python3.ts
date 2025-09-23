@@ -1,3 +1,4 @@
+// test-pr
 import { filepaths } from '../../helpers/filepaths';
 
 const completionSpec: Fig.Spec = {
@@ -168,3 +169,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

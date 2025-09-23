@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -51,3 +52,4 @@ function getUpdatedSelections(document: vscode.TextDocument, rootNode: HtmlFlatN
 	const finalOffset = (offset <= currentNode.open.end) ? currentNode.close.start + 2 : currentNode.start + 1;
 	return offsetRangeToSelection(document, finalOffset, finalOffset);
 }
+

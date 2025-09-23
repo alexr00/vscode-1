@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -29,4 +30,5 @@ export function resolveSnippet(snippetString: string, vars: ReadonlyMap<string, 
 function replaceTransformEscapes(str: string): string {
 	return str.replaceAll(/\\\//g, '/');
 }
+
 

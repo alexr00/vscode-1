@@ -1,3 +1,4 @@
+// test-pr
 // GENERATORS
 
 import { npmScriptsGenerator, npmSearchGenerator } from "./npm";
@@ -1025,3 +1026,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

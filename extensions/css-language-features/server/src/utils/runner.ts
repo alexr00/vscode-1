@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -43,3 +44,4 @@ export function runSafeAsync<T>(runtime: RuntimeEnvironment, func: () => Thenabl
 function cancelValue<E>() {
 	return new ResponseError<E>(LSPErrorCodes.RequestCancelled, 'Request cancelled');
 }
+

@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -31,3 +32,4 @@ export function readISODate(outDir: string): string {
 	const outDirectory = path.join(root, outDir);
 	return fs.readFileSync(path.join(outDirectory, 'date'), 'utf8');
 }
+

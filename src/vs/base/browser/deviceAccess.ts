@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -106,3 +107,4 @@ export async function requestHidDevice(options?: { filters?: unknown[] }): Promi
 		collections: device.collections
 	};
 }
+

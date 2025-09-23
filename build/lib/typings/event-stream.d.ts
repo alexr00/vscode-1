@@ -1,3 +1,4 @@
+// test-pr
 declare module "event-stream" {
 	import { Stream } from 'stream';
 	import { ThroughStream as _ThroughStream } from 'through';

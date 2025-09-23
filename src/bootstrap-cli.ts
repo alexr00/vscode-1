@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -9,3 +10,4 @@
 // somehow escaping to the parent shell
 // (https://github.com/microsoft/vscode/issues/126399)
 delete process.env['VSCODE_CWD'];
+

@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "grep",
 	description:
@@ -342,3 +343,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

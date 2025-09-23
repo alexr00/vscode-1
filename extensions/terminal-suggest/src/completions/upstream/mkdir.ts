@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "mkdir",
 	description: "Make directories",
@@ -35,3 +36,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

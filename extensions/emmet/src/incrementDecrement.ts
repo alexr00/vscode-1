@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -112,3 +113,4 @@ export function locate(document: vscode.TextDocument, pos: vscode.Position): vsc
 function isValidNumber(str: string): boolean {
 	return str ? !isNaN(parseFloat(str)) : false;
 }
+

@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "less",
 	description: "Opposite of more",
@@ -674,3 +675,4 @@ standards/standards/ecma-48)`,
 };
 
 export default completionSpec;
+

@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "vim",
 	description: "Vi IMproved, a programmer's text editor",
@@ -242,3 +243,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

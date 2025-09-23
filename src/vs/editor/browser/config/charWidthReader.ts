@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -141,3 +142,4 @@ export function readCharWidths(targetWindow: Window, bareFontInfo: BareFontInfo,
 	const reader = new DomCharWidthReader(bareFontInfo, requests);
 	reader.read(targetWindow);
 }
+

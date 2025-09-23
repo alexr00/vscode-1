@@ -1,3 +1,4 @@
+// test-pr
 import { ReadableStream } from '../../stream.js';
 
 /**
@@ -20,3 +21,4 @@ export interface ICodec<T, K> {
 	 */
 	decode: (value: ReadableStream<T>) => ReadableStream<K>;
 }
+

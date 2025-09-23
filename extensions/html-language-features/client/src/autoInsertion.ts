@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -96,3 +97,4 @@ export function activateAutoInsertion(provider: (kind: 'autoQuote' | 'autoClose'
 	}
 	return Disposable.from(...disposables);
 }
+

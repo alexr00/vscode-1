@@ -1,3 +1,4 @@
+// test-pr
 // Type definitions for DOM Purify 3.0
 // Project: https://github.com/cure53/DOMPurify
 // Definitions by: Dave Taylor https://github.com/davetayls
@@ -144,3 +145,4 @@ declare namespace DOMPurify {
 		forceKeepAttr?: boolean | undefined;
 	}
 }
+

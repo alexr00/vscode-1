@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -22,3 +23,4 @@ export async function typeCommitCharacter(uri: vscode.Uri, character: string, _d
 	await vscode.commands.executeCommand('type', { text: character });
 	return await didChangeDocument;
 }
+

@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -174,3 +175,4 @@ async function executeLink(link: vscode.DocumentLink) {
 	await vscode.commands.executeCommand('vscode.open', link.target!);
 	debugLog('executedLink', vscode.window.activeTextEditor?.document.toString(), Date.now());
 }
+

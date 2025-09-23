@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -150,3 +151,4 @@ class ValidatedIpcMain implements Event.NodeEventEmitter {
  * to create services on top of IPC, see `ProxyChannel` for more information.
  */
 export const validatedIpcMain = new ValidatedIpcMain();
+

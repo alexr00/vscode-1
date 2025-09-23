@@ -1,3 +1,4 @@
+// test-pr
 const completionSpec: Fig.Spec = {
 	name: "curl",
 	description: "Transfer a URL",
@@ -912,3 +913,4 @@ const completionSpec: Fig.Spec = {
 };
 
 export default completionSpec;
+

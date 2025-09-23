@@ -1,3 +1,4 @@
+// test-pr
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
@@ -118,3 +119,4 @@ checkMachOFiles(process.env['APP_PATH'], archToCheck).then(invalidFiles => {
 	console.error(err);
 	process.exit(1);
 });
+
